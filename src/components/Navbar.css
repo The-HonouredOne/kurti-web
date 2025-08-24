@@ -1,0 +1,24 @@
+.main-div{
+    /* background-color: #eabc8a; */
+    background-color: rgb(232, 205, 209);
+}
+.inner-div{
+    /* color: #670b19; */
+    color: rgb(130, 19, 19);
+}
+.logo{
+    color: #E4B5BC;
+    text-shadow: 5px 5px 10px rgba(255, 3, 3, 0.3);
+}
+.inputclass{
+    border: 1px solid #E4B5BC;
+}
+.inputclassicon{
+    color: #E4B5BC;
+}
+.top-nav{
+    background-color: #89aec6;
+}
+.main-nav{
+    /* background-color: #326384; */
+}
