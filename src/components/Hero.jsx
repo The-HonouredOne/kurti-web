@@ -68,13 +68,13 @@ const Hero = () => {
               <div className="textcontainer relative w-[40%] h-full flex flex-col justify-center px-8 lg:px-12 overflow-hidden">
                 {/* Text Content */}
                 <div className="relative z-10">
-                  <span className="text-sm bg-pink-800 text-white rounded-full px-3 py-1 mb-3 w-fit">
+                  <span className="offertext text-sm bg-blue-200 text-white rounded-full px-3 py-1 mb-3 w-fit">
                     {currentSlide.offer}
                   </span>
-                  <h2 className="text-3xl lg:text-4xl font-bold mb-3 text-white">
+                  <h2 className="offertext text-3xl lg:text-4xl font-bold mb-3 text-blue-300">
                     {currentSlide.title}
                   </h2>
-                  <p className="text-base lg:text-lg mb-5 max-w-md text-white">
+                  <p className="offertext text-base lg:text-lg mb-5 max-w-md text-blue-300">
                     {currentSlide.description}
                   </p>
                   <Link
