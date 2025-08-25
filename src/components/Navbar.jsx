@@ -8,23 +8,28 @@ const Navbar = () => {
   return (
     <>
       {/* Topbar */}
+      {/* Topbar */}
       <div className="top-nav bg-gray-100 text-xs">
-        <div className="w-full mx-auto px-4 sm:px-6 lg:px-10 flex justify-between items-center py-1">
-          <h1 className="text-red-950">
-            <span className="font-medium text-white">Free </span>
-            <span className="text-white">
-              Shipping Over $99 | USA Customers no traffic
-            </span>
+        <div className="w-full flex flex-col sm:flex-row justify-between items-center 
+                  gap-2 sm:gap-0 px-4 sm:px-6 lg:px-10 py-2">
+
+          {/* Left message */}
+          <h1 className="text-white text-center sm:text-left">
+            <span className="font-medium">Free </span>
+            Shipping Over $99 | USA Customers no traffic
           </h1>
-          <div className="flex gap-3 items-center">
-            <h1 className="font-medium text-white">United States (USD$)</h1>
-            <select className="bg-black text-white rounded px-1 py-0.5">
+
+          {/* Right selector */}
+          <div className="flex items-center gap-2">
+            <h1 className="font-medium text-white text-sm">United States (USD$)</h1>
+            <select className="bg-black text-white rounded px-2 py-1 text-xs sm:text-sm">
               <option value="America">America</option>
               <option value="India">India</option>
             </select>
           </div>
         </div>
       </div>
+
 
       {/* Navbar */}
       <div className=" main-nav shadow-md shadow-gray-300 pb-3 pt-2 sticky top-0 z-50 bg-white">
