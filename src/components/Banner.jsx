@@ -7,7 +7,7 @@ const Banner = () => {
     <section className="relative w-full bg-gradient-to-r  py-20 px-6 lg:px-20">
       {/* Heading */}
       <div className="text-center mb-12">
-        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-800 tracking-wide">
+        <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-blue-300 tracking-wide">
           ✌ 𝓜𝓸𝓻𝓮 𝓔𝔁𝓲𝓽𝓲𝓷𝓰 𝓚𝓾𝓻𝓽𝓲𝓼 ✌
         </h1>
         <p className="mt-4 text-gray-600 max-w-2xl mx-auto">

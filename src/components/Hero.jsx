@@ -7,19 +7,19 @@ import slide2 from "../assets/allstylekurti2.png";
 const slides = [
   {
     image: slide1,
-    title: "Fresh Deals Everyday",
-    description: "Get the best deals on groceries and more.",
+    title: "Stylish Kurtis for Every Occasion",
+    description: "Step into the season with our latest kurti collection",
     buttonText: "Shop Now",
     buttonLink: "/shop",
-    offer: "Free delivery - orders over $100",
+    offer: "✨ Celebrate Style With Our Kurtis ✨",
   },
   {
     image: slide2,
-    title: "Organic & Healthy",
-    description: "Fresh organic produce straight to your doorstep.",
+    title: "🌟 Kurtis That Shine in Every Season 🌟",
+    description: "Elevate your wardrobe with timeless kurtis",
     buttonText: "Explore",
     buttonLink: "/organic",
-    offer: "First order discount 20%",
+    offer: "🌸 Discover Your Perfect Kurti 🌸",
   },
 ];
 
