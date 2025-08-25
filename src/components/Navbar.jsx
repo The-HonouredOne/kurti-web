@@ -9,7 +9,7 @@ const Navbar = () => {
     <>
       {/* Topbar */}
       <div className="top-nav bg-gray-100 text-xs">
-        <div className="w-full mx-auto px-10 flex justify-between items-center py-1">
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-10 flex justify-between items-center py-1">
           <h1 className="text-red-950">
             <span className="font-medium text-white">Free </span>
             <span className="text-white">
@@ -28,7 +28,7 @@ const Navbar = () => {
 
       {/* Navbar */}
       <div className=" main-nav shadow-md shadow-gray-300 pb-3 pt-2 sticky top-0 z-50 bg-white">
-        <div className="w-full mx-auto px-10">
+        <div className="w-full mx-auto px-4 sm:px-6 lg:px-10">
 
           {/* Desktop: grid layout */}
           <div className="hidden md:grid grid-cols-3 items-center gap-4 mt-2">
