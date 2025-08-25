@@ -1,6 +1,30 @@
 body{
-   /* background-color: #326384; */
+ 
+  background-color: #89aec6; 
+  /* background-image: url(''); */
+  /* background-image: radial-gradient(circle at 1px 1px, #89aec6 3px, transparent 0); */
+  background-size: 40px 40px;
+
+ 
+
 }
 .img-text{
    background-color:#89aec6 ;
+}
+
+
+.text-btn{
+   background-color: #89aec6;
+   box-shadow: 4px 4px 24px #627b8b;
+}
+.right-text{
+   background-color: #89aec6;
+}
+
+.textcontainer{
+   /* background-color: #89aec6; */
+   
+}
+.shadow-top {
+  box-shadow: 0 -6px 16px -4px rgba(0,0,0,0.18);
 }

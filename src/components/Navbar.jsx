@@ -27,7 +27,7 @@ const Navbar = () => {
       </div>
 
       {/* Navbar */}
-      <div className=" main-nav shadow-md shadow-gray-300 pb-1 sticky top-0 z-50 bg-white">
+      <div className=" main-nav shadow-md shadow-gray-300 pb-3 pt-2 sticky top-0 z-50 bg-white">
         <div className="w-full mx-auto px-10">
 
           {/* Desktop: grid layout */}
